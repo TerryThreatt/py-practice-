@@ -28,7 +28,7 @@ class User:
         print(f"{self.first} has been created!")
 
     def __repr__(self):
-        return f"{self.first}"
+        return f"{self.first} is {self.age}"
 
     # instance methods
     def full_name(self):
