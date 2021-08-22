@@ -6,7 +6,6 @@
 
 
 class User:
-
     # class variable
     active_users = 0
 
@@ -21,7 +20,7 @@ class User:
 
     # constructor - initialization
     def __init__(self, first, last, age):
-        self.first = first
+        self.first = first 
         self.last = last
         self.age = age
         User.active_users += 1
