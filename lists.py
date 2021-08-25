@@ -19,6 +19,9 @@ colors = ["purple", "teal", "green"]
 
 data = [1, 2, 3]
 
+data_squared = [x for x in data]
+print(data_squared)
+
 # add to the list on the end
 data.append("purple")
 
@@ -36,4 +39,3 @@ print(data)
 names = ["terry", "buster", "kristal", "buster"]
 print(names.index("terry", 0))
 print(names.count("buster"))
-  
